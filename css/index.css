@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -83,17 +88,22 @@ p {
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+
 }
 
 .top-content-text{
     display: flex;
-    
+    justify-content: space-evenly;
+    margin: 20px;
+
 }
 
 .top-content .text-container {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -123,6 +133,37 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#a{
+    background: teal;
+}
+#b{
+    background: gold;
+}
+#c{
+    background: cadetblue;
+}
+#d{
+    background: coral;
+}
+#e{
+    background: crimson;
+}
+#f{
+    background: forestgreen;
+}
+#g{
+    background: darkorchid;
+}
+#h{
+    background: hotpink;
+}
+#i{
+    background:indigo;
+}
+#j{
+    background: dodgerblue;
 }
 
 .bottom-content {
