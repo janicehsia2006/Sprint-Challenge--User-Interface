@@ -100,23 +100,26 @@ nav{
 .mid-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 40%;
+    
+    border: 1px dashed blue;
+}
 
-  
-  
-}
-.mid-content img{
-    width: 300px;
-}
 
 .mid-subcontent{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-   
+    width: 45%;
+    border: 1px dashed red;
 }
+
+/* .mid-content img{
+    width: 300px;
+} */
+
 button{
     width: 30%;
 }
