@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -71,6 +72,7 @@ a{
     color: black;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -88,88 +90,53 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin: 20px;
 
 }
 
-.top-content-text{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-
-}
-
-.top-content .text-container {
-    display: flex;
-    flex-direction: column;
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.mid-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+ }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+
+.mid-subcontent{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 48%;
+    border-bottom: 1px dashed black;
+
 }
 
-#a{
-    background: teal;
+img {
+    margin-bottom: 20px;
 }
-#b{
-    background: gold;
-}
-#c{
-    background: cadetblue;
-}
-#d{
-    background: coral;
-}
-#e{
-    background: crimson;
-}
-#f{
-    background: forestgreen;
-}
-#g{
-    background: darkorchid;
-}
-#h{
-    background: hotpink;
-}
-#i{
-    background:indigo;
-}
-#j{
-    background: dodgerblue;
+
+
+button{
+    width: 30%;
+    margin: 10px 0 10px;
+    padding: 5px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: black;
+    font-size: 14px;
+    
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
+    padding-top: 20px;
     justify-content: space-around;
+
+
 }
 
 .bottom-content .text-container {
